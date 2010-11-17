@@ -1,0 +1,21 @@
+    *  High quality 6 channel FM transmitter with NiCad battery.
+    * One CPU seven-sensor control system with built-in dual conversion FM receiver featuring DSP filtering and Thermal Intelligence.
+    * One lightweight carbon fiber body with mounting hardware
+
+- extremely durable!
+
+    * New, virtually indestructible nylon injected Draganflyer rotor blades.
+    * Four high speed electric motors with installed pinions.
+    * Four motor drive gears with 8 precision ball bearings.
+    * One 3-cell 11.1 volt 1320mah Lithium-Polymer high-discharge battery w/ protection circuitry for 12-15 minute flights.
+    * Digital AC peak detection charger for flight battery and transmitter
+    * Printed manual with photos and instructional video for building and flying.
+    * Flight Simulator Interface Cable
+    * Flight Simulator Software
+
+Draganflyer V Ti Specifications:
+
+    * Size: 30" (76cm) in diameter
+    * Weight: 17 ounces (482g)
+    * Maximum Speed: approx 20mph (34kph)
+    * Flight Time: 12-15 minutes

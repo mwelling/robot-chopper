@@ -1,0 +1,6 @@
+Neutral Height of Vehicle:
+48.825"
+Max Height of Vehicle:
+76.076"
+Max Height of Vehicle w/ Scale Attached:
+72.807"

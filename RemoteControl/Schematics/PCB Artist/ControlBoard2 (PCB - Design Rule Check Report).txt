@@ -1,0 +1,43 @@
+Design Rule Check Report
+------------------------
+
+Report File    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2 (PCB - Design Rule Check Report).txt
+Report Written : Sunday, December 20, 2009
+Design Path    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2.pcb
+Design Title   : 
+Created        : 12/12/2009 5:16:58 PM
+Last Saved     : 12/20/2009 5:04:52 PM
+Editing Time   : 3740 min
+Units          : inches (precision 3)
+
+Results
+-------
+
+
+No errors found
+
+Settings
+--------
+
+Spacings
+    Tracks                             Yes
+    Pads and Vias                      Yes
+    Shapes                             Yes
+    Text                               Yes
+    Board                              Yes
+    Drills                             Yes
+    Components                         No
+
+Manufacturing
+    Min Drill Hole Size                Yes
+    Min Track Width                    Yes
+    Min Annular Ring                   Yes
+    Drill Breakout                     Yes
+
+Nets
+    Net Completion                     Yes
+    Dangling Tracks                    Yes
+    Net Track Length Differences       No
+
+
+End Of Report.

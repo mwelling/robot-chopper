@@ -1,0 +1,158 @@
+Update Components Report
+------------------------
+
+Report File    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2 (SCH - Update Components Report).txt
+Report Written : Friday, December 18, 2009
+Design Path    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2.sch
+Design Title   : 
+Created        : 
+Last Saved     : 12/19/2009 4:50:11 AM
+Editing Time   : 4359 min
+Units          : mil (precision 0)
+
+Library Files:
+	C:\Users\Public\Documents\PCB Artist\Library\3M.cml
+	C:\Users\Public\Documents\PCB Artist\Library\74hc.cml
+	C:\Users\Public\Documents\PCB Artist\Library\74hct.cml
+	C:\Users\Public\Documents\PCB Artist\Library\74ls.cml
+	C:\Users\Public\Documents\PCB Artist\Library\4000.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Actel.cml
+	C:\Users\Public\Documents\PCB Artist\Library\AD.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Altera.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Atmel.cml
+	C:\Users\Public\Documents\PCB Artist\Library\AVX.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Capacitor.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Connector.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Csm.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Cypress.cml
+	C:\Users\Public\Documents\PCB Artist\Library\davidgitz.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Diode.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Discrete.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Dsm.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Fairchild.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Fiducial.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Fuse.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Hamlin.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Hybrid.cml
+	C:\Users\Public\Documents\PCB Artist\Library\IR.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Lattice.cml
+	C:\Users\Public\Documents\PCB Artist\Library\LT.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Maxim.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Microchip.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Murata.cml
+	C:\Users\Public\Documents\PCB Artist\Library\NatSemi.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Omron.cml
+	C:\Users\Public\Documents\PCB Artist\Library\OnSemi.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Opamps.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Pcb.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Qbsm.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Qcsm.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Qsm.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Quicklogic.cml
+	C:\Users\Public\Documents\PCB Artist\Library\relay.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Resistor.cml
+	C:\Users\Public\Documents\PCB Artist\Library\RFMicro.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Schema.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Sm.cml
+	C:\Users\Public\Documents\PCB Artist\Library\ST.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Testpoint.cml
+	C:\Users\Public\Documents\PCB Artist\Library\TI.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Trans.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Transistor.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Vishay.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Wago.cml
+	C:\Users\Public\Documents\PCB Artist\Library\Xilinx.cml
+
+
+Selected items to be updated:
+-----------------------------
+
+    Components:
+
+	SN74HC148N      []
+	XBEE            [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.cml]
+
+    Symbols:
+
+	TI-P4           [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.ssl]
+
+Additional items to be updated:
+-------------------------------
+
+    Components:
+
+	(None) 
+
+    Symbols:
+
+	(None) 
+
+Selected items not to be updated  (Same version as library)
+-----------------------------------------------------------
+
+    Components:
+
+	2WPHDR          [C:\Users\Public\Documents\PCB Artist\Library\Connector.cml]
+	3WPHDR          [C:\Users\Public\Documents\PCB Artist\Library\Connector.cml]
+	791Board        [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.cml]
+	8WP             [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.cml]
+	A4              [C:\Users\Public\Documents\PCB Artist\Library\Schema.cml]
+	CP              [C:\Users\Public\Documents\PCB Artist\Library\Discrete.cml]
+	LED             [C:\Users\Public\Documents\PCB Artist\Library\Discrete.cml]
+	MCP3208         [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.cml]
+	PROPSTICK-USB   [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.cml]
+	R               [C:\Users\Public\Documents\PCB Artist\Library\Discrete.cml]
+	SN74HC148       [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.cml]
+	Vcc             [C:\Users\Public\Documents\PCB Artist\Library\Schema.cml]
+	Vdd             [C:\Users\Public\Documents\PCB Artist\Library\Schema.cml]
+	Vss             [C:\Users\Public\Documents\PCB Artist\Library\Schema.cml]
+
+    Symbols:
+
+	+V              [C:\Users\Public\Documents\PCB Artist\Library\Discrete.ssl]
+	0V              [C:\Users\Public\Documents\PCB Artist\Library\Discrete.ssl]
+	8P              [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.ssl]
+	A4              [C:\Users\Public\Documents\PCB Artist\Library\Discrete.ssl]
+	CONNECTOR-P2    [C:\Users\Public\Documents\PCB Artist\Library\Connector.ssl]
+	CONNECTOR-P3    [C:\Users\Public\Documents\PCB Artist\Library\Connector.ssl]
+	CP              [C:\Users\Public\Documents\PCB Artist\Library\Discrete.ssl]
+	LED             [C:\Users\Public\Documents\PCB Artist\Library\Discrete.ssl]
+	MCP3208         [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.ssl]
+	PROPSTICK-USB   [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.ssl]
+	R               [C:\Users\Public\Documents\PCB Artist\Library\Discrete.ssl]
+	SN74HC148       [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.ssl]
+	TI-221          []
+	TI-P2           []
+	TI-P3           [C:\Users\Public\Documents\PCB Artist\Library\davidgitz.ssl]
+
+Errors accessing items in the library:
+--------------------------------------
+
+    Components:
+
+	Cannot update component XBEE because there are a different number of gates between the old and new versions.
+	SN74HC148N (not found)
+
+
+Update Components Summary
+-------------------------
+
+Updating all components.
+Update component attribute values
+
+	Selected for update:			  16  Components
+						  16  Symbols
+
+	Selected items to be updated:		   2  Components
+						   1  Symbol 
+
+	Additional symbols to be updated:		   0  Symbols
+
+	Selected items NOT to be updated:	  14  Components
+	  (Same version as library)		  15  Symbols
+
+Errors getting items from the library:		   2  Components
+	  (Not found or read error)			   0  Symbols
+
+
+End Of Report.

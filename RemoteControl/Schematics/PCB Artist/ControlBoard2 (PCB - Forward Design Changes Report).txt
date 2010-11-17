@@ -1,0 +1,44 @@
+Forward Design Changes Report
+-----------------------------
+
+Report File    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2 (PCB - Forward Design Changes Report).txt
+Report Written : Sunday, December 20, 2009
+Design Path    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2.pcb
+Design Title   : 
+Created        : 12/12/2009 5:16:58 PM
+Last Saved     : 12/20/2009 4:32:27 PM
+Editing Time   : 3709 min
+Units          : inches (precision 3)
+
+Disconnected pin "U5.14" from net "VSS".
+
+Deleted value "Manufacturer" from component reference "U5".
+
+Deleted value "Manufacturer Part Number" from component reference "U5".
+
+Deleted value "Distributor" from component reference "U5".
+
+Deleted value "Distributor Part Number" from component reference "U5".
+
+Deleted value "Manufacturer" from component reference "C1".
+
+Deleted value "Manufacturer Part Number" from component reference "C1".
+
+Deleted value "Distributor" from component reference "C1".
+
+Deleted value "Distributor Part Number" from component reference "C1".
+
+Changed value "Value" on component reference "C1" to "150 uF".
+
+
+Error: Unable to add component reference "U2" of component "SN74HC148N", package "DIP16" because Cannot find component "SN74HC148N"..
+Error: Unable to add component reference "U3" of component "SN74HC148N", package "DIP16" because Cannot find component "SN74HC148N"..
+
+Connected pin "U5.14" to net "VDD".
+
+Renamed component reference "JP8" to "U7".
+Renamed component reference "JP7" to "U8".
+Renamed component reference "JP6" to "JP3".
+
+
+End Of Report.

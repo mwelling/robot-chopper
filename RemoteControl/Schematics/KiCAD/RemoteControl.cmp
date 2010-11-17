@@ -1,0 +1,192 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 9/8/2010 8:07:23 PM
+
+BeginCmp
+TimeStamp = /4BE762C1;
+Reference = C1;
+ValeurCmp = 150_uF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6B4CA0;
+Reference = J1;
+ValeurCmp = THUMBSTICK;
+IdModule  = ThumbStick;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6B4EB7;
+Reference = J2;
+ValeurCmp = THUMBSTICK;
+IdModule  = ThumbStick;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE7741B;
+Reference = K1;
+ValeurCmp = LCD;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE7742F;
+Reference = K2;
+ValeurCmp = GPS;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE76294;
+Reference = P1;
+ValeurCmp = BATT;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C8832D8;
+Reference = P2;
+ValeurCmp = BUTTON_PAD;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6B4D97;
+Reference = P3;
+ValeurCmp = AN;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C791FBB;
+Reference = P4;
+ValeurCmp = PROG;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7A867D;
+Reference = P5;
+ValeurCmp = M1;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7A8683;
+Reference = P6;
+ValeurCmp = M2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7AFCB8;
+Reference = P7;
+ValeurCmp = K_SW;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE75F66;
+Reference = R1;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE7614B;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7AFCA1;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE76436;
+Reference = SOK1;
+ValeurCmp = XBEE_PRO;
+IdModule  = XBEE_DIL20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE7623A;
+Reference = U1;
+ValeurCmp = BOOST_CONVERTER;
+IdModule  = PololuBoostRegulator;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE763D0;
+Reference = U2;
+ValeurCmp = BOOST_CONVERTER;
+IdModule  = PololuBoostRegulator;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C744D14;
+Reference = U3;
+ValeurCmp = R8;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE76D36;
+Reference = U4;
+ValeurCmp = MCP3208;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE76D40;
+Reference = U5;
+ValeurCmp = SN74HC148;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE75EE8;
+Reference = U6;
+ValeurCmp = PROPELLER;
+IdModule  = TQFP44;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C730BE1;
+Reference = U7;
+ValeurCmp = 10LED;
+IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE75F5C;
+Reference = U8;
+ValeurCmp = 24LC256;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7325BC;
+Reference = U9;
+ValeurCmp = R10;
+IdModule  = SIL-11;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7A8162;
+Reference = U10;
+ValeurCmp = SN754410;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE87891;
+Reference = X1;
+ValeurCmp = 5_MHz;
+IdModule  = SIL-2;
+EndCmp
+
+EndListe

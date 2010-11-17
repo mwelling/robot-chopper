@@ -1,0 +1,18 @@
+Transfer from Schematic to PCB.
+-------------------------------
+
+Report File    : C:\David.Gitz\projects\robot-chopper\Analysis\Communications\RF DAQ\Schematics\RemoteNode (PCB - Transfer from Schematic to PCB.).txt
+Report Written : Tuesday, April 20, 2010
+Design Path    : C:\David.Gitz\projects\robot-chopper\Analysis\Communications\RF DAQ\Schematics\RemoteNode.pcb
+Design Title   : 
+Created        : 4/21/2010 2:04:34 AM
+Last Saved     : 4/21/2010 2:04:50 AM
+Editing Time   : 0 min
+Units          : mil (precision 0)
+
+Could not load component "2WP" package "DSC" into target design.
+Could not add "PL1" component "2WP" package "DSC" to target design.
+Could not load component "3WP" package "DSC" into target design.
+Could not add "PL2" component "3WP" package "DSC" to target design.
+
+End Of Report.

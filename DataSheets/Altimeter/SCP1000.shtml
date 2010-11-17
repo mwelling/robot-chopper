@@ -1,0 +1,170 @@
+
+<html>
+
+<head>
+<meta name="keywords" content="Athena,Perseus,strobe,White LED">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>SCP1000 Pressure Sensor Interface</title>
+<style>
+<!--
+td { font-family: Comic Sans MS; font-size:10pt }
+.bodyline	{ background-color: #FFFFFF; border: 1px #98AAB1 solid; }
+
+.forumline	{ background-color: #FFFFFF; border: 2px #006699 solid; }
+
+td.row1	{ background-color: #EFEFEF; }
+.postbody { font-size : 12px; line-height: 18px}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0" style="font-family: Comic Sans MS; font-size: 10pt">
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" height="43"  >
+  <tr>
+    <TD BGCOLOR="#FFFFFF" height="16" > 
+ 
+           <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+             <tr>
+               <td width="33%" bgcolor="#FFFFFF"><a href="/">
+    <img border="0" src="/images/kronos.jpg" alt="Kronos Robotics and Electronics" width="267" height="60"></a><img border="0" src="/images/robot1.jpg" width="54" height="74"></td>
+               <td width="33%" align="center" bordercolor="#FFFFFF">
+               <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber3" height="68">
+                 <tr>
+                   <td width="100%" height="14" align="center"></td>
+                 </tr>
+                 <tr>
+                   <td width="100%" height="19" align="center"><b>
+                   <a href="/SiteMap.shtml">Site Map</a></b></td>
+                 </tr>
+                 <tr>
+                   <td width="100%" height="19" align="center">
+               &nbsp;</td>
+                 </tr>
+                 <tr>
+                   <td width="100%" height="16">
+                   <div align="center">
+                     <center>
+                     <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4">
+                       <tr>
+                         <td width="25%" align="center">
+                   <font face="Arial" size="2" color="#081589">
+               <a href="/xcart/cart.php" style="text-decoration: none">
+               <font color="#081589">Shopping Cart</font></a></font></td>
+                         <td width="46%" align="center">
+               <font face="Arial" size="2" color="#081589">&nbsp; </font>
+                   <a href="/Services.shtml" style="text-decoration: none">
+                   <font face="Arial" color="#081589" size="2">Engineering 
+                   Services</font></a><font face="Arial" color="#081589" size="2"> </font>
+                         </td>
+                         <td width="29%" align="center">
+                   <a href="/xcart/help.php?section=contactus&mode=update" style="text-decoration: none">
+                   <font face="Arial" color="#081589" size="2">Contact US</font></a></td>
+                       </tr>
+                     </table>
+                     </center>
+                   </div>
+                   </td>
+                 </tr>
+               </table>
+               </td>
+             </tr>
+           </table>
+ 
+           </TD>
+
+        </tr>
+  <tr>
+    <TD BGCOLOR="#D6D7D9" height="16" > 
+ 
+           <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1" height="15">
+             <tr>
+               <td width="10%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15"><b>
+               <font face="Arial">
+               <a style="text-decoration: none" href="/">
+               <font color="#FFFFFF" size="2">Home</font></a></font></b></td>
+               <td width="14%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15">
+               <b><a style="text-decoration: none" href="http://www.krmicros.com/Development/ZeusPro/ZeusPro.htm">
+               <font face="Arial" size="2" color="#FFFFFF">Zeus</font></a></b></td>
+               <td width="12%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15"><b>
+               <a href="/projects.shtml" style="text-decoration: none">
+               <font color="#FFFFFF" face="Arial" size="2">Projects</font></a></b></td>
+               <td width="15%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15"><b>
+               <font face="Arial">
+               <a href="/application.shtml" style="text-decoration: none">
+               <font color="#FFFFFF" size="2">App Notes</font></a></font></b></td>
+               <td width="15%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15"><b>
+               <font face="Arial">
+               <a style="text-decoration: none" href="/Downloads.shtml">
+               <font color="#FFFFFF" size="2">Downloads</font></a></font></b></td>
+               <td width="9%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15"><b>
+               <font face="Arial">
+               <a href="/tuter.shtml" style="text-decoration: none">
+               <font color="#FFFFFF" size="2">Dios</font></a></font></b></td>
+               <td width="12%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15"><b>
+               <font face="Arial">
+               <a style="text-decoration: none" href="/atuter.shtml">
+               <font color="#FFFFFF" size="2">Athena</font></a></font></b></td>
+               <td width="18%" align="center" bgcolor="#081589" bordercolor="#FFFFFF" height="15">
+               <b>
+               <a style="text-decoration: none" href="/forums">
+               <font face="Arial" size="2" color="#FFFFFF">Forums</font></a></b></td>
+             </tr>
+           </table>
+ 
+           </TD>
+
+        </tr>
+  <tr>
+    <TD BGCOLOR="#E4ECF3" height="16" bordercolor="#68C1FF" > 
+ 
+           &nbsp;</TD></tr></table>
+<div align="center">
+  <center>
+<table border="5" width="100%" background="../images/grid1.jpg" bordercolor="#E4ECF3" bordercolorlight="#E4ECF3" bordercolordark="#BACEE0" style="border-collapse: collapse" cellpadding="0" cellspacing="0">
+  <tr>
+    <td style="border-style: solid; border-width: 1">
+  <p align="center"><b>Project</b></p>
+  <p align="center"><font size="5"><b>SCP1000 Pressure Sensor Interface</b></font></p>
+      <p align="center"><b><font face="Comic Sans MS" size="2">&nbsp;By Michael 
+      Simpson</font></b></p>
+      <p align="center"><img border="0" src="SCP1000sm.jpg" width="158" height="147"></p>
+      <blockquote>
+      <p align="center">
+      <a href="SCP1000.pdf">SCP1000 Interface</a></p>
+      <p align="center"><a href="SCP1000files.zip">Source Files</a>&nbsp; 
+      (Includes DiosPro library and help file)</p>
+      <p align="center">&nbsp;</p>
+      <p align="left">&nbsp;</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+  </center>
+</div>
+
+
+<div align="left">
+  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+    <tr>
+      <td width="80%" align="center" bgcolor="#081589">
+  <p align="center">
+  <p align="right"><font face="Arial" size="1" color="#FFFFFF">
+  Copyright © 2001 - 2007 Kronos Robotics&nbsp;&nbsp;&nbsp;</font></p>
+  </p>
+  
+  
+  
+      </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+</html>

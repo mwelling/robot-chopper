@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 4/21/2010 10:18:02 PM
+
+BeginCmp
+TimeStamp = /4BCF63E9;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF63E5;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF63C3;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF63CB;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF63C8;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF6387;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9MD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF6407;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = CONN3_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF640A;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = CONN3_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF641C;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCF642F;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BCFBF96;
+Reference = U?;
+ValeurCmp = PROPELLER;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+EndListe

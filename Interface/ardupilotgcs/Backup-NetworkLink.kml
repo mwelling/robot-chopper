@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+   <NetworkLink>
+      <name>NameField-TestProbaCoord</name>
+      <open>1</open>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>1</flyToView>
+      <Link>
+         <href>APflight.kml</href>
+         <refreshMode>onInterval</refreshMode>
+         <refreshInterval>1</refreshInterval>
+      </Link>
+   </NetworkLink>
+</kml>

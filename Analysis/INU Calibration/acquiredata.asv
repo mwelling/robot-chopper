@@ -1,0 +1,47 @@
+fid = fopen('TestData.txt', 'r');
+i = 0;
+linecounter = 0;
+gyrox = 0;
+gyroy = 0;
+gyroz = 0;
+accelx = 0;
+accely = 0;
+accelz = 0;
+
+%Initialize Gain Constants
+kgx = 1;
+kgy = 1;
+kgz = 1;
+kax = 1;
+kay = 1;
+kaz = 1;
+sentype = 0;
+while 1
+    tline = fgetl(fid);
+    if ~ischar(tline),   break,   end
+    %disp(tline)
+    linecounter = linecounter + 1;
+    [token, remain] = strtok(tline,',');
+    [sentype, remain] = strtok(remain,',');
+
+    if (strmatch('ACC', sentype)) | (strmatch('GYR', sentype)) 
+        [val1, remain] = strtok(remain,',')
+        [val2, remain] = strtok(remain,',')
+        [val3, remain] = strtok(remain,',')
+        val3(length(val3)) = '.' %Remove final * character.
+    end
+
+    if strmatch('GYR', sentype)
+        i = i + 1;
+        gyrox(i) = str2num(val1)
+        gyroy(i) = str2num(val2)
+        gyroz(i) = str2num(val3)
+    elseif strmatch('ACC', sentype)
+        i = i + 1;
+        accelx(i) = str2num(val1)
+        accely(i) = str2num(val2)
+        accelz(i) = str2num(val3)
+    end
+        
+end
+fclose(fid);

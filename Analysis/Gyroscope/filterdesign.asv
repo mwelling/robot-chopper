@@ -1,0 +1,108 @@
+close all
+
+acquiredata
+Fs = 45; %Assume Sampling Frequency is 45 Hz
+resetsize = Fs;
+i = 0;
+j = 0;
+
+g = 9.8; %m/s^2
+%Initialize Gain Constants
+kgroll = .5;
+kgpitch = .5;
+kgyaw = .5;
+
+
+
+%MATLAB Filter Calculation for Gyro
+n = 4;  %4th Order filter
+fcgyro = 20;  %Cutoff @ 4 Hz
+wgyro = fcgyro/Fs;  %Normalize Cutoff Frequency
+[b,a] = butter(n,(wgyro/2),'high');
+
+
+%Gyro Filter Algorithm
+
+L = length(gyropitch);
+tempsum = 0;
+gyrorollfilt =  zeros(1,L);
+
+gyroyawfilt =   zeros(1,L);
+
+%Gyro Pitch Integral Calculations
+gyropitchint = zeros(1,L);
+gyropitchintfilt = zeros(1,L);
+for k = (n+1):L
+    tempsum = 0;
+    gyropitchint(k) = integral(gyropitch(k),gyropitchint(k-1), -10000, 10000, 1/Fs);
+    %Input Bias Calculation
+    tempsum =  b(1)*gyropitch(k) + b(2)*gyropitch(k-1)+b(3)*gyropitch(k-2)+b(4)*gyropitch(k-3) + b(5)*gyropitch(k-4);
+    %Feedback Calculation
+    tempsum =  tempsum - (a(2)*gyropitchfilt(k-1) + a(3)*gyropitchfilt(k-2) + a(4)*gyropitchfilt(k-3) + a(5) *gyropitchfilt(k-4));
+    gyropitchfilt(k) = tempsum;
+    gyropitchintfilt(k) = integral(gyropitchfilt(k),gyropitchintfilt(k-1), -10000, 10000, 1/Fs);
+end
+gyropitchdc = sum(gyropitch)/length(gyropitch) * ones(1,length(gyropitch));
+gyropitchfilt
+% for k = (n+1):L
+%     tempsum = 0;
+%     %Input Bias Calculation
+%     tempsum =  b(1)*gyroyaw(k) + b(2)*gyroyaw(k-1)+b(3)*gyroyaw(k-2)+b(4)*gyroyaw(k-3) + b(5)*gyroyaw(k-4);
+%     %Feedback Calculation
+%     tempsum =  tempsum - (a(2)*gyroyawfilt(k-1) + a(3)*gyroyawfilt(k-2) + a(4)*gyroyawfilt(k-3) + a(5) *gyroyawfilt(k-4));
+%     gyroyawfilt(k) = tempsum;
+% end
+% for k = (n+1):L
+%     tempsum = 0;
+%     %Input Bias Calculation
+%     tempsum =  b(1)*gyroroll(k) + b(2)*gyroroll(k-1)+b(3)*gyroroll(k-2)+b(4)*gyroroll(k-3) + b(5)*gyroroll(k-4);
+%     %Feedback Calculation
+%     tempsum =  tempsum - (a(2)*gyrorollfilt(k-1) + a(3)*gyrorollfilt(k-2) + a(4)*gyrorollfilt(k-3) + a(5) *gyrorollfilt(k-4));
+%     gyrorollfilt(k) = tempsum;
+% end
+NFFT = 2^nextpow2(L);
+Y = fft(gyropitch,NFFT)/L;
+Yfilt = fft(gyropitchfilt,NFFT)/L;
+f = Fs/2*linspace(0,1,NFFT/2);
+
+figure(1)
+subplot(2,1,1)
+loglog(f,2*abs(Y(1:NFFT/2)),'b')
+title('Single-Sided Amplitude Spectrum of Gyro Pitch Axis, Before High Pass Filter')
+xlabel('Frequency (Hz)')
+ylabel('|Y(f)|')
+subplot(2,1,2)
+loglog(f,2*abs(Yfilt(1:NFFT/2)),'r')
+title('Single-Sided Amplitude Spectrum of Gyro Pitch Axis, After High Pass Filter')
+xlabel('Frequency (Hz)')
+ylabel('|Y(f)|')
+
+figure(2)
+subplot(2,2,1)
+plot(gyropitch);
+title('Gyro Pitch: Before Filter');
+xlabel('Time');
+ylabel('Magnitude');
+
+subplot(2,2,2)
+plot(gyropitchint);
+title('Gyro Pitch Integral: Before Filter');
+xlabel('Time');
+ylabel('Magnitude');
+
+subplot(2,2,3)
+plot(gyropitchfilt);
+title('Gyro Pitch: After Filter');
+xlabel('Time');
+ylabel('Magnitude');
+
+subplot(2,2,4)
+plot(gyropitchintfilt);
+title('Gyro Pitch Integral: After Filter');
+xlabel('Time');
+ylabel('Magnitude');
+
+
+
+
+

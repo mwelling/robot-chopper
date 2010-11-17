@@ -1,0 +1,16 @@
+Design Consistency Status Report
+--------------------------------
+
+Report File    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2 (PCB - Design Consistency Status Report).txt
+Report Written : Sunday, December 20, 2009
+Design Path    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2.pcb
+Design Title   : 
+Created        : 12/12/2009 5:16:58 PM
+Last Saved     : 12/20/2009 4:32:27 PM
+Editing Time   : 3709 min
+Units          : inches (precision 3)
+
+Checking integrity of Schematic "C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2.sch" with PCB "C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2.pcb".
+
+
+End Of Report.

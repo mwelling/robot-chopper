@@ -1,0 +1,42 @@
+clear all;
+close all;
+clc;
+%Ground Station Constants
+GTxPower = 18 %dBm, xbee is 0, xbee pro is 18
+GAntenntaGain = 3 %3 standard dipole
+GFreq = 900 %In Megahurtz
+
+%Vehicle Constants
+ASensitivity = -100 %dBm
+AAntennaGain = 3 %3 standard dipole
+
+%Environment Constants
+NoiseFloor = -92 %-100 is unusual, assume -92
+LossExponent = 2 %2 is free space path loss
+MinimumSNR = 5 %dB
+MinimumSNRvector = 0;
+
+startDistance = 500;  %Starting Distance, m
+finalDistance = 16000;  %Starting Distance, m
+PathLossdB = 0;  %Friis Pathloss Equation
+SignalStrength = 0;
+SNR = 0;
+
+i = 0;
+for i = 1:(finalDistance-startDistance)
+    
+    PathLossdB = (20*log10(GFreq) + (10*LossExponent)*log10(i+startDistance))-28;
+    SignalStrength = ((GTxPower+GAntenntaGain)+AAntennaGain)-PathLossdB;
+    SNR(i) = -1*NoiseFloor + SignalStrength;
+    MinimumSNRvector(i) = MinimumSNR;
+    if SNR(i) < MinimumSNR
+        disp('Maximum Distance with Minimum SNR is:')
+        disp(i+startDistance)
+        %break;
+    end
+        
+end
+figure(1)
+hold on
+plot(SNR,'b')
+plot(MinimumSNRvector,'r')

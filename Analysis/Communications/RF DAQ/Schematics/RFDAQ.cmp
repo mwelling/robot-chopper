@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 4/22/2010 6:19:13 PM
+
+BeginCmp
+TimeStamp = /4BD0648C;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD0649A;
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD06493;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD064A0;
+Reference = C4;
+ValeurCmp = 100uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD06D4B;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD06474;
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD064F4;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD066B1;
+Reference = J1;
+ValeurCmp = JACK_2P;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD0D71F;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD064E7;
+Reference = R1;
+ValeurCmp = 180R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD06D33;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD06D2B;
+Reference = R3;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD064BC;
+Reference = U1;
+ValeurCmp = LM2940-3.3;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD0D825;
+Reference = U3;
+ValeurCmp = 24LC256;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD0D5FB;
+Reference = U4;
+ValeurCmp = XBEE_PRO;
+IdModule  = XBEE_DIL20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD0D888;
+Reference = U5;
+ValeurCmp = PROPELLER;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+EndListe

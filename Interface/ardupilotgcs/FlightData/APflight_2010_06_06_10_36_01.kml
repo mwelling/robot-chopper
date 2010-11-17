@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>
+<!-- PlaneIconTxt --> ALT: -88.001130,35.000570,107.578125<!-- endPlaneIconTxt -->
+</name>
+<visibility>1</visibility>
+<description>Current Position</description>
+<Style>
+<IconStyle>
+<Icon>
+<href>airports.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<width>2</width>
+</LineStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+<!-- CurCords -->-88.001130,35.000570,107.578125<!-- endCurCords -->
+</coordinates>
+</Point>
+</Placemark>
+<!-- wpHere -->
+   <name>MyPath</name>
+<!--CameraPoint -->    <LookAt>
+      <longitude>-88.001130</longitude>
+      <latitude>35.000570</latitude>  
+      <altitude>0</altitude>  
+       <range>1500</range>   
+      <tilt>0</tilt> 
+      <heading>0</heading> 
+      <altitudeMode>relativeToGround</altitudeMode>
+    </LookAt>
+<!--endCameraPoint -->
+    <description>Path flown by the plane.</description>
+    <Style id="yellowLineGreenPoly">
+      <LineStyle>
+        <color>7f00ffff</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f00ff00</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Absolute Extruded</name>
+      <description>Airplane paths</description>
+      <styleUrl>#yellowLineGreenPoly</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+	<!-- CordPathData -->-88.001130,35.000570,107.578125
+
+          </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

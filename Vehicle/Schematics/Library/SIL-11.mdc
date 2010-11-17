@@ -1,0 +1,15 @@
+PCBNEW-LibDoc----V1  8/24/2010 6:22:25 PM
+#
+$MODULE SIL-10
+Li SIL-10
+Cd Connecteur 10 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE SIL-11
+Li SIL-11
+Cd Connecteur 10 pins
+Kw CONN DEV
+$EndMODULE
+#
+$EndLIBDOC

@@ -1,0 +1,114 @@
+PCB Configuration Report
+------------------------
+
+Report File    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2 (PCB - PCB Configuration Report).txt
+Report Written : Sunday, December 20, 2009
+Design Path    : C:\David.Gitz\projects\robot-chopper\RemoteControl\Schematics\PCB Artist\ControlBoard2.pcb
+Design Title   : 
+Created        : 12/12/2009 5:16:58 PM
+Last Saved     : 12/20/2009 7:26:21 PM
+Editing Time   : 3879 min
+Units          : inches (precision 3)
+
+PCB Artist version:       1.3.2
+
+
+Design Requirement
+------------------
+Design Requirement Name:  2 Layer Standard
+
+
+Board
+-----
+Board Size:               5.800 X 1.325
+CNC Route Points:         4
+
+
+Layers
+------
+Number of Layers:         2
+Powerplanes:              No
+Solder Mask:              Yes
+    Top Side:             Yes
+    Bottom Side:          Yes
+    Type:                 LPI
+    Color:                Green
+Silkscreen:               Yes
+    Top Side:             Yes
+    Bottom Side:          No
+    Color:                White
+
+
+Board Parameters
+----------------
+Material:                 FR4
+Material Thickness:       0.062 inches
+Finish Plating:           Lead Free Solder
+Copper Weight (Outer):    1 oz
+Copper Weight (Inner):    1 oz
+
+Tab Routes:               No
+V-Scoring:                No
+Plated Slots:             No
+Counter Sinks:            No
+Counter Bores:            No
+Plated Edges:             No
+Dielectric:               No
+Impedance:                No
+
+Min Track Width/Gap:      0.010 inches
+Minimum Hole Size:        0.015 inches
+Beveled Gold Fingers:     None
+
+
+Additional Requirements
+-----------------------
+Electrical Test:          No
+Component Assembly:       No
+        Unique Component Parts: 11
+        Through Hole:     24
+        Fine Pitch:       0
+        BGA/Leadless:     0
+        Other SMT:        0
+
+Special Requirements: 
+
+
+
+Production
+----------
+Board Part Number:        RCUPCB
+Revision Number:          1
+Production:               Prototype
+Turnaround Time:          3 Days
+Quantity:                 5
+Array:                    No
+
+Board Unit Price:         $47.41
+Board Subtotal Price:     $237.05
+Test Price:               $0.00
+
+Total Price:              $237.05
+
+
+Design Data
+-----------
+Number of Tracks:         105
+Minimum Track Width Used: 0.015 inches
+Maximum Track Width Used: 0.015 inches
+
+Number of Holes:          171
+Number of Hole Sizes:     5
+Minimum Hole Size Used:   0.024 inches
+Maximum Hole Size Used:   0.035 inches
+
+Number of Top SMT Pads:   0
+Number of Bottom SMT Pads: 0
+
+Minimum Track or Space:   0.010 inches
+
+Fiducials:                No
+
+Number of Design Errors:  0
+
+End Of Report.

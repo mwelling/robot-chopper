@@ -1,0 +1,14 @@
+APM_ADC		https://arducopter.googlecode.com/svn/trunk/libraries/APM_ADC
+APM_BinComm	https://arducopter.googlecode.com/svn/trunk/libraries/APM_BinComm
+APM_BMP085	https://arducopter.googlecode.com/svn/trunk/libraries/APM_BMP085
+APM_Compass	https://arducopter.googlecode.com/svn/trunk/libraries/APM_Compass
+APM_RC		https://arducopter.googlecode.com/svn/trunk/libraries/APM_RC
+AP_Common	https://arducopter.googlecode.com/svn/trunk/libraries/AP_Common
+AP_Compass	https://arducopter.googlecode.com/svn/trunk/libraries/AP_Compass
+AP_GPS		https://arducopter.googlecode.com/svn/trunk/libraries/AP_GPS
+AP_Math		https://arducopter.googlecode.com/svn/trunk/libraries/AP_Math
+AP_Navigation	https://arducopter.googlecode.com/svn/trunk/libraries/AP_Navigation
+DataFlash	https://arducopter.googlecode.com/svn/trunk/libraries/DataFlash
+FastSerial	https://arducopter.googlecode.com/svn/trunk/libraries/FastSerial
+RC		https://arducopter.googlecode.com/svn/trunk/libraries/RC
+Waypoints	https://arducopter.googlecode.com/svn/trunk/libraries/Waypoints
