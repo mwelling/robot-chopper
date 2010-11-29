@@ -6,7 +6,7 @@
       <refreshVisibility>0</refreshVisibility>
       <flyToView>0</flyToView>
       <Link>
-         <href>FlightData/Test.kml</href>
+         <href>Test.kml</href>
          <refreshMode>onInterval</refreshMode>
          <refreshInterval>0</refreshInterval>
       </Link>
