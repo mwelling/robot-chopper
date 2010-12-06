@@ -3,7 +3,7 @@
 <Document>
 <Placemark>
 <name>
-<!-- PlaneIconTxt --> ALT: -89.725622,38.711872,8215.332124<!-- endPlaneIconTxt -->
+<!-- PlaneIconTxt --> ALT: 2.200000,1.100000,123.000000<!-- endPlaneIconTxt -->
 </name>
 <visibility>1</visibility>
 <description>Current Position</description>
@@ -20,15 +20,673 @@
 <Point>
 <extrude>1</extrude>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates><!-- CurCords -->-89.725622,38.711872,8215.332124<!-- endCurCords -->
+<coordinates><!-- CurCords -->2.200000,1.100000,123.000000<!-- endCurCords -->
 </coordinates>
 </Point>
 </Placemark><!-- wpHere -->
+  <Placemark>
+    <name>0</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.395852,30.909567,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-106.554861,46.503631,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-97.988701,40.714121,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-99.145635,40.463406,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>4</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.553811,40.379833,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>5</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.822254,40.433207,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>6</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-102.020525,40.472328,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>7</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.939759,40.796836,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>8</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-98.329493,38.661003,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>9</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-97.641207,37.040941,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>10</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-98.467753,34.154909,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>11</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.382831,33.045786,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>12</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.750974,39.827083,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>13</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.863286,39.897530,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>14</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.179339,39.930642,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>15</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.183971,39.931335,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>16</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.466655,39.572461,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>17</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-101.070266,36.795216,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>18</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-102.654136,36.565834,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>19</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-105.415050,36.198062,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>20</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-105.094825,36.676204,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>21</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-104.015793,37.209423,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>22</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-103.468595,37.396304,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>23</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-104.361172,37.342967,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>24</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-99.701980,40.838332,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>25</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-98.037494,41.416925,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>26</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-89.705742,32.162213,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>27</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.710815,31.130739,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>28</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-112.780499,46.085920,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>29</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-95.747433,41.031926,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>30</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.377204,40.504132,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>31</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.333302,40.496592,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>32</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-95.036656,41.970412,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>33</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-95.893998,41.513266,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>34</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-95.617156,40.746379,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>35</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-95.699447,40.560071,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>36</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.921665,40.295379,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>37</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.410343,40.238934,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>38</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.101803,40.816292,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>39</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-95.119659,40.929261,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>40</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-93.940831,41.310041,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>41</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.741581,41.594240,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>42</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-95.299215,41.770964,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>43</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-94.350601,41.918365,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>44</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-93.661344,41.722700,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>45</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-93.641255,41.586571,100.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>46</name>
+    <description></description>
+<Style>
+<IconStyle>
+<Icon>
+<href>C:\David.Gitz\projects\ICARUS\Ground Station\Interface\FlightData\blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+    <Point>
+      <coordinates>-98.398759,42.735746,100.000000</coordinates>
+    </Point>
+  </Placemark>
 <name>MyPath</name>
 <!--CameraPoint -->    <LookAt>
-      <longitude>-89.7256220</longitude>
-      <latitude>38.7118720</latitude>  
-      <altitude>8215.332124</altitude>  
+      <longitude>2.2000000</longitude>
+      <latitude>1.1000000</latitude>  
+      <altitude>123.000000</altitude>  
        <range>1500</range>   
       <tilt>0</tilt> 
       <heading>0</heading> 
@@ -81,221 +739,64 @@
         <tessellate>1</tessellate>
         <altitudeMode>relativeToGround</altitudeMode>
         <coordinates>
-	<!-- CordPathData -->-89.951400,38.066772,8321.064187
--89.396108,38.773226,9346.102551
--89.485184,38.886894,591.381877
--89.150905,38.547788,8348.007784
--89.431706,38.633139,1926.312186
--89.689833,38.103515,7300.713536
--89.577551,38.011239,8150.862008
--89.389584,38.784765,6181.002474
--89.692091,38.341546,647.436956
--89.779799,38.332733,8312.798230
--89.792003,38.529910,9610.777871
--89.475559,38.709642,5720.147192
--89.192314,38.472943,1438.550047
--89.273140,38.612997,9012.492335
--89.575732,38.399921,5688.992271
--89.943377,38.573023,2375.087082
--89.354090,38.181938,812.256537
--89.684878,38.049835,8215.322952
--89.794975,38.227470,2107.096358
--89.164561,38.296331,1557.302489
--89.166905,38.015032,3563.532825
--89.322339,38.811445,4475.050059
--89.935879,38.949998,210.574128
--89.802111,38.719059,4349.865613
--89.735516,38.241293,8796.513564
--89.864944,38.746714,2762.772440
--89.936628,38.451810,1597.720889
--89.528221,38.714208,3386.207294
--89.431554,38.655746,4561.025353
--89.371315,38.627839,3284.224848
--89.935265,38.219806,4460.699141
--89.148286,38.428231,8772.164173
--89.232273,38.729918,4277.417772
--89.436977,38.262575,6660.411877
--89.120814,38.644164,4901.208945
--89.330771,38.494951,9626.252720
--89.509063,38.261948,220.322535
--89.921496,38.374937,9659.861438
--89.733091,38.333664,7024.308185
--89.549165,38.971961,2591.131957
--89.842751,38.097899,6473.469966
--89.242912,38.155206,3509.926288
--89.096337,38.621421,8287.981929
--89.569088,38.110308,2751.870105
--89.427788,38.410458,5197.619929
--89.241834,38.181903,7992.840636
--89.383608,38.000727,5313.252827
--89.620255,38.445312,5283.926075
--89.102941,38.636649,4383.132393
--89.578123,38.151813,8651.007943
--89.540356,38.100767,2558.428950
--89.240598,38.940309,6044.856549
--89.084170,38.678819,6262.235798
--89.275200,38.438494,2707.595825
--89.980226,38.703543,7684.864497
--89.326769,38.795078,6093.931025
--89.262196,38.096553,1929.779681
--89.069336,38.773587,8037.614330
--89.655572,38.792244,8042.995492
--89.236981,38.973763,6048.596290
--89.483362,38.671274,8435.290475
--89.994802,38.226408,1518.306659
--89.934632,38.862538,1733.453812
--89.346647,38.039486,149.233299
--89.182507,38.697485,8547.827152
--89.475566,38.772096,2388.775794
--89.548462,38.098688,5415.021685
--89.599594,38.929868,7388.347263
--89.828496,38.724006,8210.574853
--89.285739,38.687630,6453.013986
--89.545440,38.091423,4199.923002
--89.156441,38.955900,5956.840590
--89.055820,38.024221,8262.532400
--89.220490,38.833727,5713.305611
--89.069052,38.936779,6283.427656
--89.589919,38.919599,3302.392515
--89.394535,38.660273,5875.778660
--89.198607,38.851056,1413.597861
--89.332479,38.929450,4791.452527
--89.843100,38.304905,2712.487448
--89.958754,38.791771,1557.718050
--89.017074,38.007942,8578.806977
--89.100454,38.286893,525.098424
--89.086311,38.852845,1829.806193
--89.972477,38.283141,4045.051028
--89.600002,38.498908,3974.597594
--89.078095,38.671836,3160.442866
--89.523528,38.430365,8596.674111
--89.011130,38.158537,6679.699081
--89.233586,38.190788,9988.938576
--89.247834,38.640868,2185.542174
--89.114933,38.759554,4107.629138
--89.635031,38.419598,9519.646026
--89.771254,38.972995,2428.661360
--89.066915,38.463241,3510.746505
--89.229291,38.853244,4895.560604
--89.652491,38.257450,5666.586606
--89.100688,38.806327,1547.639349
--89.410322,38.050640,8472.416295
--89.534550,38.361540,4024.889762
--89.429672,38.354135,6117.093421
--89.557914,38.028165,7059.626275
--89.234470,38.762968,7724.179387
--89.802256,38.409969,9754.771646
--89.321947,38.824084,7493.215774
--89.073396,38.475823,1841.998478
--89.119679,38.166560,3490.342084
--89.482487,38.688991,5354.653494
--89.133397,38.293718,3217.852368
--89.219492,38.479367,9877.697773
--89.296776,38.099067,2469.514682
--89.867738,38.204042,6009.776883
--89.509654,38.153026,6222.318978
--89.094661,38.641663,4592.203608
--89.457889,38.852338,6339.881210
--89.674929,38.983484,8856.578745
--89.636381,38.031492,8092.828113
--89.909320,38.013911,4466.399956
--89.170252,38.944176,185.592330
--89.639692,38.471065,7949.496173
--89.177795,38.442720,5996.534235
--89.964332,38.510799,9591.948645
--89.374126,38.219223,1536.296544
--89.589395,38.159184,4238.983049
--89.363662,38.298467,4495.785386
--89.717312,38.043560,8439.172857
--89.807586,38.754232,4813.857468
--89.615253,38.086400,5146.594527
--89.900734,38.805700,850.051819
--89.083125,38.514307,6407.807605
--89.254164,38.376883,7456.537520
--89.627294,38.022612,2604.152667
--89.477116,38.581523,7883.895796
--89.288510,38.267692,8818.413868
--89.172932,38.671955,242.664040
--89.393769,38.200939,9920.349540
--89.728179,38.723796,4242.108604
--89.157409,38.900867,3204.560122
--89.227093,38.514586,2202.012393
--89.188286,38.814831,1914.126812
--89.520699,38.748298,5809.753578
--89.252993,38.541166,9415.539576
--89.732963,38.051729,7591.699833
--89.163354,38.135190,4857.895346
--89.105283,38.377163,7510.957491
--89.148976,38.564266,1656.875865
--89.665549,38.231729,4810.788476
--89.211781,38.103874,1363.010220
--89.451134,38.863030,2839.944486
--89.440290,38.280353,5721.886510
--89.329934,38.323502,5339.146790
--89.140065,38.610309,9682.813775
--89.615730,38.608324,8071.803243
--89.376354,38.150029,2559.878759
--89.053704,38.444013,4680.776497
--89.536973,38.667692,2640.379052
--89.291829,38.266294,3628.363387
--89.497313,38.226730,1736.291759
--89.349312,38.543651,4302.277238
--89.354711,38.702794,8153.127474
--89.737244,38.017486,6439.147801
--89.930623,38.453213,2914.583915
--89.337112,38.677098,3753.752197
--89.312852,38.462834,9116.262539
--89.987241,38.893034,6151.870796
--89.048624,38.810872,263.793462
--89.137034,38.192952,8262.855694
--89.126335,38.659552,8409.189286
--89.414678,38.799487,7546.948023
--89.325627,38.047808,9666.546919
--89.805351,38.462492,8359.261055
--89.200072,38.716017,1462.925790
--89.085180,38.634841,641.174397
--89.081902,38.671063,7793.522995
--89.739614,38.386818,445.918333
--89.668778,38.786040,2965.148441
--89.367125,38.770118,987.199796
--89.635685,38.738941,7184.078205
--89.825137,38.393554,7102.729318
--89.477839,38.096097,462.200094
--89.754498,38.675382,9874.222061
--89.484524,38.760361,1059.894532
--89.656789,38.169098,6176.557777
--89.302532,38.710913,7779.111473
--89.955801,38.035434,5740.475346
--89.583946,38.353150,1595.590670
--89.740459,38.006822,1090.389443
--89.286316,38.578028,7312.072157
--89.848177,38.428287,7125.893132
--89.305122,38.863203,6818.298671
--89.182693,38.060069,3457.629525
--89.295837,38.818476,9662.773813
--89.604681,38.532485,2912.323313
--89.111528,38.009667,2109.056777
--89.023978,38.529605,2697.069707
--89.409598,38.623136,5976.182482
--89.683430,38.358432,1678.568317
--89.238108,38.366735,4843.277714
--89.600468,38.356406,8686.560484
--89.881885,38.017059,2926.911781
--89.819291,38.708943,1347.454180
--89.875640,38.515860,6568.717694
--89.616350,38.305583,4357.713029
--89.731669,38.835561,9253.756504
--89.780080,38.344755,1095.057390
--89.695631,38.003505,3191.026568
--89.666629,38.474366,9044.859426
--89.171295,38.440437,7530.820413
--89.069677,38.207582,632.828126
--89.879097,38.080017,4935.729911
--89.481563,38.834410,2377.231219
--89.354826,38.738432,3363.688764
--89.407277,38.736920,7077.516368
--89.492081,38.164535,2443.930902
--89.725622,38.711872,8215.332124
+	<!-- CordPathData -->2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
+2.200000,1.100000,123.000000
 
 
           </coordinates>
