@@ -27,38 +27,9 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="joystickAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/joystickAcquire.vi"/>
 				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
@@ -74,27 +45,46 @@
 				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
-				<Item Name="Initialize Mouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Mouse.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
+				<Item Name="Initialize Mouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Mouse.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 			</Item>
 			<Item Name="StringCheck.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/StringCheck.vi"/>
 			<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="../../../Interface/ardupilotgcs/VISA Configure Serial Port (Serial Instr).vi"/>
 			<Item Name="EnumLog.ctl" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/LogEngine/EnumLog.ctl"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/lvinput.dll"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Google Earth - initialise.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/Google Earth VIs/Google Earth - initialise.vi"/>
-			<Item Name="IsEXE.vi" Type="VI" URL="../../../Interface/ardupilotgcs/IsEXE.vi"/>
-			<Item Name="KML-Log2.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-Log2.vi"/>
-			<Item Name="KML-Compose2.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-Compose2.vi"/>
-			<Item Name="KML-dataParse.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-dataParse.vi"/>
-			<Item Name="lookfordata_i32.vi" Type="VI" URL="../../../Interface/ardupilotgcs/lookfordata_i32.vi"/>
-			<Item Name="KML-RenameSave.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-RenameSave.vi"/>
 			<Item Name="SpeakEngine.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/SpeakEngine.vi"/>
 			<Item Name="Speech-OpenVoiceObjects.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/Speech-OpenVoiceObjects.vi"/>
 			<Item Name="Get_Voices.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/Get_Voices.vi"/>
@@ -107,16 +97,59 @@
 			<Item Name="Speech-CloseVoiceObjects.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/Speech-CloseVoiceObjects.vi"/>
 			<Item Name="EnumSpeak.ctl" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/EnumSpeak.ctl"/>
 			<Item Name="Speech-Status.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/Speech-Status.vi"/>
-			<Item Name="Speech-WpnAltSpd-Talk.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/Speech-WpnAltSpd-Talk.vi"/>
-			<Item Name="Google Earth - KH_initialise.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/Google Earth VIs/Google Earth - KH_initialise.vi"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/lvinput.dll"/>
-			<Item Name="KML-AddWPdata.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-AddWPdata.vi"/>
-			<Item Name="KML-wpDataParseOut.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-wpDataParseOut.vi"/>
-			<Item Name="KML-AddWPdata2.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-AddWPdata2.vi"/>
-			<Item Name="KML-WriteWPT.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/KML/KML-WriteWPT.vi"/>
-			<Item Name="Retrieve Token String.vi" Type="VI" URL="../../../../Archive/Robo-Chopper Interface/Package .1/Supporting Functions/Retrieve Token String.vi"/>
-			<Item Name="Retrieve Token String.vi" Type="VI" URL="../Protocol/Retrieve Token String.vi"/>
+			<Item Name="IsEXE.vi" Type="VI" URL="../../../Interface/ardupilotgcs/IsEXE.vi"/>
+			<Item Name="Google Earth - initialise.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/Google Earth VIs/Google Earth - initialise.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="My Application" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{31F1A8F6-0AF9-40EA-879E-52FF38521937}</Property>
+				<Property Name="App_applicationName" Type="Str">Application.exe</Property>
+				<Property Name="App_companyName" Type="Str">Hewlett-Packard</Property>
+				<Property Name="App_fileDescription" Type="Str">My Application</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E3603768-6917-497C-99F6-26F87244F796}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7775D404-C474-4627-8157-4B53F1977D33}</Property>
+				<Property Name="App_internalName" Type="Str">My Application</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2010 Hewlett-Packard</Property>
+				<Property Name="App_productName" Type="Str">My Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Interface/builds/internal.llb</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Interface/builds/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0ACE88E3-9473-48FB-AD07-B3933EF9D414}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GCS Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Data</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Supporting Functions</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Mapping</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Protocol</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
