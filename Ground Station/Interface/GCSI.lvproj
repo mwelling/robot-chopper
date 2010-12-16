@@ -22,6 +22,9 @@
 		<Item Name="Protocol" Type="Folder" URL="../Protocol">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="XBee" Type="Folder" URL="../XBee">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="GCS Main.vi" Type="VI" URL="../GCS Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -122,7 +125,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Interface/builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0ACE88E3-9473-48FB-AD07-B3933EF9D414}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1FEAC46A-1D86-404F-803A-96623BCA0451}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GCS Main.vi</Property>

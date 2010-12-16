@@ -1,4 +1,4 @@
-update=13/5/2010-02:17:45
+update=12/12/2010 10:30:16 PM
 last_client=eeschema
 [general]
 version=1
@@ -6,7 +6,7 @@ RootSch=robo-chopper.sch
 BoardNm=robo-chopper.brd
 [eeschema]
 version=1
-LibDir=/usr/share/kicad/library
+LibDir=Library
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -37,6 +37,8 @@ RptLab=1
 SimCmd=
 UseNetN=0
 LabSize=60
+PrintMonochrome=1
+ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -65,4 +67,4 @@ LibName24=cypress
 LibName25=siliconi
 LibName26=contrib
 LibName27=valves
-LibName28=/home/michael/robot-chopper/Vehicle/Schematics/Library/robo-chopper
+LibName28=Library\\robo-chopper
