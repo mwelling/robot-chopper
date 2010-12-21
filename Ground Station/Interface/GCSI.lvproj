@@ -26,6 +26,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GCS Main.vi" Type="VI" URL="../GCS Main.vi"/>
+		<Item Name="AssignXBeeID.vi" Type="VI" URL="../AssignXBeeID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -125,7 +126,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Interface/builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1FEAC46A-1D86-404F-803A-96623BCA0451}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F820DFE1-9EB7-4119-A81C-5D0A90300E71}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GCS Main.vi</Property>
@@ -151,7 +152,16 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Protocol</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/XBee</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AssignXBeeID.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
