@@ -101,35 +101,40 @@
 			<Item Name="Speech-CloseVoiceObjects.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/Speech-CloseVoiceObjects.vi"/>
 			<Item Name="EnumSpeak.ctl" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/EnumSpeak.ctl"/>
 			<Item Name="Speech-Status.vi" Type="VI" URL="../../../Interface/ardupilotgcs/Engines/SpeachEngine/Speech-Status.vi"/>
-			<Item Name="IsEXE.vi" Type="VI" URL="../../../Interface/ardupilotgcs/IsEXE.vi"/>
 			<Item Name="Google Earth - initialise.vi" Type="VI" URL="../../../Interface/ardupilotgcs/SubVIs/Google Earth VIs/Google Earth - initialise.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="My Application" Type="EXE">
+			<Item Name="GCSI" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{31F1A8F6-0AF9-40EA-879E-52FF38521937}</Property>
-				<Property Name="App_applicationName" Type="Str">Application.exe</Property>
+				<Property Name="App_applicationName" Type="Str">GCSI.exe</Property>
 				<Property Name="App_companyName" Type="Str">Hewlett-Packard</Property>
-				<Property Name="App_fileDescription" Type="Str">My Application</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_fileDescription" Type="Str">GCSI</Property>
+				<Property Name="App_fileVersion.build" Type="Int">1</Property>
+				<Property Name="App_fileVersion.minor" Type="Int">2</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{E3603768-6917-497C-99F6-26F87244F796}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{7775D404-C474-4627-8157-4B53F1977D33}</Property>
-				<Property Name="App_internalName" Type="Str">My Application</Property>
+				<Property Name="App_internalName" Type="Str">GCSI</Property>
 				<Property Name="App_legalCopyright" Type="Str">Copyright © 2010 Hewlett-Packard</Property>
-				<Property Name="App_productName" Type="Str">My Application</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="App_productName" Type="Str">GCSI</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GCSI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Interface/builds/internal.llb</Property>
+				<Property Name="Destination[0].destName" Type="Str">GCSI.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Interface/builds/GCSIbuild/internal.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Interface/builds/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Interface/builds/GCSIbuild/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F820DFE1-9EB7-4119-A81C-5D0A90300E71}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4863CF28-587F-4040-A896-DB5AF8DE2124}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GCS Main.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
@@ -159,9 +164,42 @@
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AssignXBeeID.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
+			</Item>
+			<Item Name="AssignXBeeID" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{9DB973FC-8652-4F96-867F-30E0AA5AE568}</Property>
+				<Property Name="App_applicationName" Type="Str">AssignXBeeID.exe</Property>
+				<Property Name="App_companyName" Type="Str">Hewlett-Packard</Property>
+				<Property Name="App_fileDescription" Type="Str">AssignXBeeID</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{4EEB1B13-38AE-46E7-AE8C-770BD1405E18}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3EFD1CF2-BF88-41E8-835B-3351642C77C2}</Property>
+				<Property Name="App_internalName" Type="Str">AssignXBeeID</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2010 Hewlett-Packard</Property>
+				<Property Name="App_productName" Type="Str">AssignXBeeID</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AssignXBeeID</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">AssignXBeeID.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Interface/builds/AssignNetworkIDbuild/internal.llb</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Interface/builds/AssignNetworkIDbuild/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{02BACE2B-BBF4-4D56-A2CA-8CE1B799E4E4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AssignXBeeID.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/XBee</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>

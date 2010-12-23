@@ -64,6 +64,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="ArduPilot GCS.vi" Type="VI" URL="../ArduPilot GCS.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../../../../../../Users/dgitz/Desktop/test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -136,6 +137,14 @@
 			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/lvinput.dll"/>
 			<Item Name="Retrieve Token String.vi" Type="VI" URL="../SubVIs/Retrieve Token String.vi"/>
 			<Item Name="Retrieve Token String.vi" Type="VI" URL="../../../../Archive/Robo-Chopper Interface/Package .1/Supporting Functions/Retrieve Token String.vi"/>
+			<Item Name="Sensor Data.vi" Type="VI" URL="../Data/Sensor Data.vi"/>
+			<Item Name="Vehicle Data.vi" Type="VI" URL="../Data/Vehicle Data.vi"/>
+			<Item Name="Error Data.vi" Type="VI" URL="../Data/Error Data.vi"/>
+			<Item Name="LogEngine.vi" Type="VI" URL="../../../Ground Station/Interface/Mapping/LogEngine.vi"/>
+			<Item Name="KML-Create.vi" Type="VI" URL="../../../Ground Station/Interface/Mapping/KML-Create.vi"/>
+			<Item Name="Mapping Data.vi" Type="VI" URL="../../../Ground Station/Interface/Data/Mapping Data.vi"/>
+			<Item Name="Data Separator.vi" Type="VI" URL="../../../Ground Station/Interface/Supporting Functions/Data Separator.vi"/>
+			<Item Name="Write-out Google Maps.vi" Type="VI" URL="../../../Ground Station/Interface/Mapping/Write-out Google Maps.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ArduPilotGCS" Type="EXE">
