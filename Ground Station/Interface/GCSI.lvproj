@@ -107,9 +107,10 @@
 			<Item Name="GCSI" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{31F1A8F6-0AF9-40EA-879E-52FF38521937}</Property>
 				<Property Name="App_applicationName" Type="Str">GCSI.exe</Property>
+				<Property Name="App_autoIncrement" Type="Bool">true</Property>
 				<Property Name="App_companyName" Type="Str">Hewlett-Packard</Property>
 				<Property Name="App_fileDescription" Type="Str">GCSI</Property>
-				<Property Name="App_fileVersion.build" Type="Int">1</Property>
+				<Property Name="App_fileVersion.build" Type="Int">3</Property>
 				<Property Name="App_fileVersion.minor" Type="Int">2</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{E3603768-6917-497C-99F6-26F87244F796}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{7775D404-C474-4627-8157-4B53F1977D33}</Property>
@@ -126,7 +127,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Interface/builds/GCSIbuild/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4863CF28-587F-4040-A896-DB5AF8DE2124}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A6C913C6-29C5-4B53-AA82-3F1AECB30EDA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GCS Main.vi</Property>
