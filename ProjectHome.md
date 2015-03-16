@@ -1,0 +1,1 @@
+ICARUS is a collection of Projects to support an Autonomous Quad-Rotor Vehicle. These Projects include the Remote Control Unit (RCU), the Ground Control Station (GCS), the GCS-Interface (GCSI), the Test-Stand, and the Vehicle itself.
